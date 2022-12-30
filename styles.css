@@ -1,0 +1,124 @@
+/*.header {
+    background-color: blue;
+}
+body {
+    background-color: rgb(241, 192, 192);
+}
+.footer {
+    background-color: green;
+}
+.container {
+    background-color: lightgoldenrodyellow;
+}
+*/
+
+
+/* CSS by Silas Supke*/
+
+.header {
+    width: 90vw;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    background: rgb(34, 102, 123);
+    color: white;
+    font-size: 21px;
+  }
+  body {
+    background-color: rgb(216, 238, 245);
+  }
+  
+  #registrationFormContainer {
+    width: 90vw;
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 5%;
+    padding-top: 2.5%;
+    border: 1px solid lightgrey;
+  }
+  
+  .necessary {
+    margin: 0px 0px 20px 0px;
+  }
+
+/* -------- description red star: -------- */
+.redStarInf {
+    
+}
+  
+  
+  /* -------- Text Input Container: -------- */
+  .input-container{
+    width: 100%;
+  }
+  .label{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .descriptionText {
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: black;
+  }
+  /*text input field:*/
+  input[type=text], input[type=password] {
+    width: 94%;
+    padding: 2%;
+    padding-right: 0px;
+    padding-left: 3%;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    margin-right: 0px;
+    margin-left: 3%;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: 1px solid black;
+  }
+  
+  
+  /* -------- radio Button Input Container: -------- */
+  input[type="radio"] {
+      margin-left: 5%;
+      margin-top: 2%;
+      margin-bottom: 7%
+  }
+  
+  /* -------- checkbox Input Container: -------- */
+  .checkboxContainer {
+    margin-bottom: 7%;
+    margin-left: 3%;
+  }
+  
+  /* -------- submit Button: -------- */
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #51a8ef;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-left: 3%;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #407199;
+  }
+  
+  /* -------- ivalid input: -------- */
+  .is_invalid {
+    border: 3px solid red;
+    background: red;
+    color: red;
+    background-color: red;
+  }
+  
+  
+  
