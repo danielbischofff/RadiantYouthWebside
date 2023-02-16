@@ -1,32 +1,37 @@
 <!doctype html>
-<html lang="de"> 
 
+<!-- Participant registration for the Summersplash 2023 by Silas Supke -->
+    
+<html lang="en"> 
 <head> 
     <meta charset="utf-8"> 
     <title>Registration for Summer Splash participants</title>
     <meta name="author" content="Silas Supke">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./styles.css">
     <script language="javascript" type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
-    <header class = "header" id="header"></header>
+<header class = "header" id="header">
+     <h1>Summer Splash 2023</h1>
+     <h4>Endlich ist es wieder soweit! Auch dieses Jahr werden wir das Summer Splash im schönen Italien verbringen.</h4>
+</header>
 
-    <!-- basic start framework which is for all sites the same -->
-    <form name="registrationForm" id="registrationForm" action="php_includes/form.php"  method="post" required>
-        <div id="registrationFormContainer">
-            <div class="container redStarInf" id="redStar">
-                <b style="color: red">*</b>
-                <i> Erforderlich!</i>
-            </div>
+<form name="registrationForm" id="registrationForm" method="post" action="/action_page.php">
+    <div id="registrationFormContainer">  <!-- All contents inside -->
+        <div class="container redStarInf" id="redStar">
+            <b style="color: red">*</b>
+            <i> Erforderlich!</i>
         </div>
-    </form>
-    
+    </div>
+</form>
 
-    <footer class = "footer">
-        <p>&#169; by radiantIT</p>
-    </footer>
+<footer class = "footer">
+    <p>&#169; by radiantIT Solutions</p>
+</footer>
 
 </body>
+
 </html>
