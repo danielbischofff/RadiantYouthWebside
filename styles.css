@@ -134,7 +134,7 @@ transition-duration: 0.4s;
 
 .submitButton:hover {
 background-color: lightblue;
-color: white;
+cursor: pointer;
 }
 
 /*LINK*/
@@ -150,3 +150,9 @@ color: blue;
 cursor: pointer;
 }
 
+/* Error Text */
+.errorText{
+color: red;
+padding: 0;
+text-align: center;
+}
